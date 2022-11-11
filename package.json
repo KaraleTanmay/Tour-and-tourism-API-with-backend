@@ -1,0 +1,32 @@
+{
+  "name": "natours-project",
+  "version": "1.0.0",
+  "description": "a project which will gives you tours  information",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Tanmay Karale",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.6.0",
+    "helmet": "^6.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.15",
+    "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
+    "nodemailer": "^6.8.0",
+    "slugify": "^1.6.5",
+    "validator": "^13.7.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
